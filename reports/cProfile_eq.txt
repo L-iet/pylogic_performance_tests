@@ -1,0 +1,102 @@
+[CPROFILE - TestEquality.t_equal starting]
+         75 function calls (66 primitive calls) in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     10/1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:246(__eq__)
+       10    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:222(eq_child_independent_attrs)
+       10    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       10    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+       20    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+
+
+[CPROFILE - TestEquality.t_equal_child_independent_attrs starting]
+         6 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:222(eq_child_independent_attrs)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+
+
+[CPROFILE - TestEquality.t_equal_up_to_subclass starting]
+         106 function calls (73 primitive calls) in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     10/1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:277(equal_up_to_subclass)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     19/4    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:302(<genexpr>)
+       10    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:222(eq_child_independent_attrs)
+     10/1    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+       20    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       20    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+
+
+[CPROFILE - TestEquality.t_hash starting]
+         54 function calls (35 primitive calls) in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+     10/1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:215(__hash__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     11/1    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+       20    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:219(<genexpr>)
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+
+
+[CPROFILE - TestEquality.t_not_equal_different_class starting]
+         7 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:246(__eq__)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+
+
+[CPROFILE - TestEquality.t_not_equal_different_name starting]
+         10 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:246(__eq__)
+        1    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:222(eq_child_independent_attrs)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+
+
+[CPROFILE - complete]

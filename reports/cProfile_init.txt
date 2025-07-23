@@ -1,0 +1,69 @@
+[CPROFILE - TestInitialization.t_copy starting]
+         15 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\joshj\AppData\Local\Programs\Python\Python313\Lib\copy.py:62(copy)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:12(__init__)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:196(__init__)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:308(__copy__)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:20(update_child_dependent_attrs)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:343(update_child_dependent_attrs)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:26(update_child_independent_attrs)
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:398(post_init)
+
+
+[CPROFILE - TestInitialization.t_deepcopy starting]
+         30 function calls (29 primitive calls) in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      2/1    0.000    0.000    0.000    0.000 C:\Users\joshj\AppData\Local\Programs\Python\Python313\Lib\copy.py:119(deepcopy)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:314(__deepcopy__)
+        2    0.000    0.000    0.000    0.000 C:\Users\joshj\AppData\Local\Programs\Python\Python313\Lib\copy.py:232(_keep_alive)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:196(__init__)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:12(__init__)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:20(update_child_dependent_attrs)
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        1    0.000    0.000    0.000    0.000 C:\Users\joshj\AppData\Local\Programs\Python\Python313\Lib\copy.py:192(_deepcopy_list)
+        3    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:26(update_child_independent_attrs)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:343(update_child_dependent_attrs)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:398(post_init)
+
+
+[CPROFILE - TestInitialization.t_init starting]
+         10 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:196(__init__)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:12(__init__)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:20(update_child_dependent_attrs)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:343(update_child_dependent_attrs)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:23(init_child_independent_attrs)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:398(post_init)
+
+
+[CPROFILE - complete]

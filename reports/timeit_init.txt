@@ -1,0 +1,6 @@
+[TIMEIT - TestInitialization.t_copy] Average time over 10000 runs: 0.000001 sec
+[TIMEIT - TestInitialization.t_deepcopy] Average time over 10000 runs: 0.000002 sec
+[TIMEIT - TestInitialization.t_init] Average time over 10000 runs: 0.000001 sec
+
+[SUMMARY] Total time: 0.000004 sec
+Longest function/class: TestInitialization.t_deepcopy (0.000002 sec)

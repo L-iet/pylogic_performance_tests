@@ -1,0 +1,19 @@
+[CPROFILE - TestInitialization.t_init starting]
+         10 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:196(__init__)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:12(__init__)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:20(update_child_dependent_attrs)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:343(update_child_dependent_attrs)
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\pylogic_performance_tests\base.py:23(init_child_independent_attrs)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 D:\code\pylogic\pylogic_performance_tests\.venv\Lib\site-packages\pylogic\base.py:398(post_init)
+
+
+[CPROFILE - complete]
